@@ -33,10 +33,10 @@ public class test1 {
         System.out.println();
         System.out.println();
 
-        int i = 8;
-        while (i <= 1) {
-            System.out.print(i + " ");
-            i -= 1;
+        int o = 8;
+        while (o <= 1) {
+            System.out.print(o + " ");
+            o -= 1;
         }
 
         System.out.println();
@@ -82,7 +82,29 @@ public class test1 {
 
         System.out.println();
         System.out.println();
-        System.out.println();
+        System.out.println("Uppgift 9:");
+
+        boolean a = true, b = true, c = true;
+        int i = 0, j = 0, k = 0;
+        if (i >= j) {
+            k += 100;
+        }
+
+        if (a) {
+            i += j;
+        }
+
+        if (a && b) {
+            c = true;
+        }
+
+        if (a || b) {
+            c = false;
+        }
+
+        if ((a && b) || (b && c)) {
+            b = (a && c);
+        }
 
     }
 
