@@ -50,10 +50,28 @@ public class test1 {
         System.out.println();
 
         int iii = 11;
-        while (iii <= -9) {
+        while (iii >= -9) {
             System.out.print(iii + " ");
-            iii += 4;
+            iii -= 4;
         }
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        int l = 1;
+        do {
+            System.out.print(l + " ");
+            l++;
+        } while (l <= 8);
+
+        System.out.println();
+
+        int h = 11;
+        do {
+            System.out.print(h + " ");
+            h -= 4;
+        } while (h >= -9);
 
     }
 }
