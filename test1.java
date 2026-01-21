@@ -106,6 +106,30 @@ public class test1 {
             b = (a && c);
         }
 
+        if (!c && (b || !b)) {
+            a = true;
+        }
+
+        if (!b) {
+            a = true;
+        } else {
+            c = true;
+        }
+
+        if (c || a) {
+            if (b) {
+                j += k;
+            } else {
+                j = k;
+            }
+        } else {
+            c = false;
+        }
+
+        System.out.print("hej: ");
+        String words = input.next();
+        System.out.print(words);
+
     }
 
     static int sittplatser(int n) {
